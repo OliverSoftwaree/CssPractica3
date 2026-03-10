@@ -1,0 +1,28 @@
+body {
+    background-color: #16a085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 500px;
+}
+
+#resultado-primos {
+    margin-top: 20px;
+    color: #2c3e50;
+    font-size: 0.9rem;
+    line-height: 1.6; 
+    max-height: 300px; 
+    overflow-y: auto;  
+    padding: 10px;
+}
